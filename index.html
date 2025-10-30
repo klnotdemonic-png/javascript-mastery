@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Tombol Alert - JS Terpisah</title>
+  <style>
+    body {
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      margin: 0;
+      background: linear-gradient(135deg, #f3f4f6, #e9edf2);
+    }
+    .card {
+      background: white;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+    button {
+      padding: 0.6rem 1.2rem;
+      border-radius: 8px;
+      border: none;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: 0.3s;
+      background-color: #6b46c1;
+      color: white;
+    }
+    button:hover {
+      background-color: #553c9a;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>Selamat Datang</h1>
+    <p>Klik tombol di bawah untuk melihat alert nama.</p>
+    <button id="helloBtn">Tampilkan Nama</button>
+  </div>
+
+  <!-- Hubungkan ke file JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
